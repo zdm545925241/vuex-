@@ -1,0 +1,472 @@
+    * {
+        margin: 0 auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    i,
+    em {
+        font-style: normal;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-weight: normal;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: none;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        min-height: 100%;
+    }
+    
+    body {
+        width: 100%;
+        max-width: 720px;
+        background: #fff;
+        font-family: "微软雅黑";
+        font-size: 14px;
+        color: #333;
+        position: relative;
+        height: 100%;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .proList {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .proList h2 {
+        color: #555;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .proList ul.list {
+        width: 100%;
+        overflow: hidden;
+        padding: 0 10px 70px 14px;
+        box-sizing: border-box;
+    }
+    
+    .proList ul.list li {
+        float: left;
+        width: 25%;
+        margin-top: 20px;
+    }
+    
+    .proList ul.list li a {
+        display: block;
+        width: 100%;
+    }
+    
+    .proList ul.list li a>span {
+        margin: 0 auto;
+        width: 75px;
+        display: inline-block;
+        height: 90px;
+        overflow: hidden;
+    }
+    
+    .proList ul.list li a>span>img {
+        width: 100%;
+    }
+    
+    .proList ul.list li a p {
+        color: #555;
+    }
+    
+    .proList ul.list li a p.name {
+        font-weight: bold;
+    }
+    
+    .proList ul.list li a p.level {
+        font-size: 13px;
+    }
+    
+    .listFooter {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        max-width: 720px;
+        height: 48px;
+        line-height: 48px;
+        border-top: 1px solid #eee;
+        background: #fff;
+    }
+    
+    .listFooter ul {
+        width: 100%;
+        display: flex;
+    }
+    
+    .listFooter li {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .listFooter li a {
+        color: #555;
+    }
+    
+    .c1 {
+        color: #ff7c00;
+    }
+    
+    .listFooter li span {
+        font-size: 21px!important;
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    
+    .el-rate__icon {
+        font-size: 14px!important;
+        margin-right: 3px!important;
+    }
+    
+    .count {
+        position: absolute;
+        top: 6px;
+        left: 60%;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: red;
+        color: #fff;
+        text-align: center;
+        line-height: 16px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 50%;
+    }
+    /* 详情页*/
+    
+    .proDetail {
+        width: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 180px;
+        background: url(../../static/img/bannerBg.jpg) right no-repeat #040404;
+        position: relative;
+        background-size: contain;
+    }
+    
+    .sImg {
+        position: absolute;
+        bottom: -22px;
+        left: 20px;
+        width: 88px;
+        height: 120px;
+        overflow: hidden;
+    }
+    
+    .sImg>img {
+        width: 100%;
+    }
+    
+    .cont {
+        position: absolute;
+        top: 47px;
+        left: 135px;
+    }
+    
+    .cont p {
+        color: #fff;
+    }
+    
+    .cont p:nth-child(1) {
+        font-size: 18px;
+    }
+    
+    .cont p:nth-child(2) {
+        font-size: 24px;
+    }
+    
+    .cont p:nth-child(4) {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .proDetail h2 {
+        padding: 50px 0 10px 20px;
+        font-size: 16px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    
+    .contDetail {
+        text-align: center;
+        font-size: 14px;
+        color: #888;
+        padding: 30px 0;
+    }
+    
+    .link {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -50%;
+        width: 100%;
+        max-width: 720px;
+        height: 42px;
+    }
+    
+    .link a {
+        display: block;
+        width: 100%;
+        height: 42px;
+        background: #ff7c00;
+        /* border-radius: 3px; */
+        text-align: center;
+        line-height: 42px;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* 购物车列表页 */
+    
+    .shoppingList {
+        width: 100%;
+    }
+    
+    .shoppingList ul {
+        padding: 15px 10px 60px 10px;
+    }
+    
+    .shoppingList ul li {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e4e4e4;
+        overflow: hidden;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .shoppingList ul li span.img {
+        display: block;
+        width: 88px;
+        height: 100px;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    
+    .shoppingList ul li span.img>img {
+        width: 100%;
+    }
+    
+    .shoppingList ul li div {
+        flex: 1;
+        position: relative;
+    }
+    
+    .shoppingList ul li div p {
+        margin-bottom: 3px;
+    }
+    
+    .shoppingList ul li div p:nth-child(1) {
+        color: #ff7c00;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .changeCount span {
+        display: inline-block;
+        float: left;
+    }
+    
+    .text {
+        width: 30px;
+    }
+    
+    .changeCount {
+        overflow: hidden;
+    }
+    
+    .changeCount i {
+        float: left;
+    }
+    
+    .text>input {
+        width: 30px;
+        height: 22px;
+        background: #fff;
+        border: 0;
+        border: 1px solid #e4e4e4;
+        text-align: center;
+        box-sizing: border-box;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    .reduce>button,
+    .add>button {
+        width: 20px;
+        height: 22px;
+        background: #fff;
+        border: 0;
+        border: 1px solid #e4e4e4;
+        border-radius: 3px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .reduce>button {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+    .add>button {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    
+    .price {
+        color: #ff3600;
+    }
+    
+    .del {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        right: 0;
+        width: 70px;
+        height: 30px;
+    }
+    
+    .del>button {
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        background: #fff;
+        border: 0;
+        border: 1px solid #ff3600;
+        border-radius: 15px;
+        color: #ff3600;
+        text-align: center;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .shoppingFotter {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        max-width: 720px;
+        background: #fff;
+        height: 70px;
+        overflow: hidden;
+    }
+    
+    .shoppingFotter ul {
+        width: 100%;
+        display: flex;
+        padding: 0;
+    }
+    
+    .shoppingFotter li {
+        flex: 1;
+        height: 42px;
+    }
+    
+    .shoppingFotter li a {
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .shoppingFotter li a.jump {
+        background: #ff7c00;
+    }
+    
+    .shoppingFotter li a.counter {
+        background: #ff3600;
+    }
+    
+    .tip {
+        width: 100%;
+        overflow: hidden
+    }
+    
+    .tip span.checkAlled {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .tip span.totalMoney {
+        float: right;
+        margin-bottom: 10px;
+    }
+    
+    .tip span i {
+        color: #ff3600;
+        padding-right: 10px;
+    }
+    
+    .titleTip {
+        padding-top: 50px;
+        text-align: center
+    }
+    
+    .commonStyle {
+        float: left;
+        margin-top: 38px;
+        margin-right: 15px;
+    }
+    
+    .commonStyle2 {
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .tui-checkbox:checked {
+        width: 20px;
+        height: 20px;
+        background: url(../../static/img/checkbox_round_1.png) no-repeat;
+        background-size: 100%;
+        -webkit-appearance: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    .tui-checkbox {
+        width: 20px;
+        height: 20px;
+        background: url(../../static/img/checkbox_round_0.png) no-repeat;
+        background-size: 100%;
+        -webkit-appearance: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    .el-message-box {
+        width: 300px!important;
+    }
+    
+    .el-message {
+        min-width: 300px!important;
+    }
